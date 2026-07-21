@@ -1,0 +1,39 @@
+@import "../../styles/variables.css";
+
+aside {
+    width: 240px;
+    min-height: 100vh;
+
+    background: linear-gradient(
+        180deg,
+        var(--roxo-principal),
+        var(--roxo-escuro)
+    );
+
+    color: white;
+    padding: 24px;
+    box-sizing: border-box;
+}
+
+aside h2 {
+    margin-top: 0;
+    margin-bottom: 40px;
+    color: var(--dourado-claro);
+}
+
+aside nav {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+aside nav p {
+    margin: 0;
+    padding: 12px;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+aside nav p:hover {
+    background-color: rgba(255, 255, 255, 0.1);
+}

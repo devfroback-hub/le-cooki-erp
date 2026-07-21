@@ -1,7 +1,7 @@
-import LecookiSistema from "./pages/LecookiSistema";
+import Sidebar from "./components/Sidebar/Sidebar";
 
 function App() {
-  return <LecookiSistema />;
+  return <Sidebar />;
 }
 
 export default App;
