@@ -1,19 +1,35 @@
 import "./Sidebar.css";
-
-function Sidebar(){
+import logoLeCooki from "../../images/logo-le-cooki.png";
+function Sidebar() {
     return (
-        <aside>
-            <h2>Le Cookí ERP</h2>
+    <aside>
+      <div className="sidebar-brand">
+        <img
+  src={logoLeCooki}
+  alt="Logo da Le Cookí"
+  className="sidebar-logo"
+/>
+        
+          <h2>Sistema Le Cookí</h2>
 
-            <nav>
-                <p>Dashboard</p>
-                <p>Pedidos</p>
-                <p>Produtos</p>
-                <p>Clientes</p>
-                <p>Estoque</p>
-                <p>Financeiro</p>
-            </nav>
-        </aside>
-    );
+          <p>Mais que um Cookí,<br/>
+           uma experiência.
+           </p>
+    
+      </div>
+
+      <nav>
+        <p>🏠 Central de Operações</p>
+        <p>📋 Pedidos</p>
+        <p>🍪 Produtos</p>
+        <p>👥 Clientes</p>
+        <p>🏭 Produção</p>
+        <p>📦 Estoque</p>
+        <p>🛒 Compras</p>
+        <p>💰 Financeiro</p>
+      </nav>
+    </aside>
+  );
 }
+
 export default Sidebar;
