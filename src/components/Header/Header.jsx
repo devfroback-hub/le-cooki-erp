@@ -4,7 +4,7 @@ function Header() {
   return (
     <header className="header">
       <div>
-        <h1>Dashboard</h1>
+        <h1>Sistema de Gestão</h1>  
         <p>Mais que um Cookí, uma experiência.</p>
       </div>
 
