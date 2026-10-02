@@ -72,3 +72,7 @@ aside nav p:hover {
   display: block;
   margin: 0 auto 14px;
 }
+aside nav a {
+    color:var(--texto-claro);
+    text-decoration: none;
+}

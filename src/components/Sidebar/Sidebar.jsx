@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import "./Sidebar.css";
 import logoLeCooki from "../../images/logo-le-cooki.png";
 function Sidebar() {
@@ -20,7 +21,9 @@ function Sidebar() {
 
       <nav>
         <p>🏠 Central de Operações</p>
-        <p>📋 Pedidos</p>
+        <p>
+          <Link to="/pedidos">📋 Pedidos</Link> 
+        </p>
         <p>🍪 Produtos</p>
         <p>👥 Clientes</p>
         <p>🏭 Produção</p>
